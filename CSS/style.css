@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+
+.bacs {
+    background-image: linear-gradient(to top right, #00ffff 0%, #08457e 85%);
+    background-size: cover;
+    position: relative;
+}
+
+
+.kills {
+    background-image: linear-gradient(to bottom right, #00ffff 0%, #08457e 85%);
+    background-size: cover;
+    position: relative;
+}
+
+.projects {
+    background-image: linear-gradient(to top right, #00ffff 0%, #08457e 85%);
+    background-size: cover;
+    position: relative;
+}
+
+.experi {
+    background-image: linear-gradient(to bottom right, #00ffff 0%, #08457e 85%);
+    background-size: cover;
+    position: relative;
+}
+
+.badges {
+    background-image: linear-gradient(to top right, #00ffff 0%, #08457e 85%);
+    background-size: cover;
+    position: relative;
+}
+
+.cntct {
+    background-image: linear-gradient(to bottom right, #00ffff 0%, #08457e 85%);
+    background-size: cover;
+    position: relative;
+}
+
+.bannerBgImage {
+    height: 100vh;
+    background: url("/Images/BannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle {
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.bannerDesc {
+    font-size: 3rem;
+    font-family: 'Yesteryear', cursive;
+    color: #e7feff;
+}
+
+.card {
+    cursor: pointer;
+    background-color: transparent;
+    color: #f5f5f5;
+}
+
+.card:hover {
+    background-color: #00827f;
+    color: aquamarine;
+    border: 2px solid yellowgreen;
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover {
+    border: 4px solid #00cc99;
+}
+
+.card-img-top {
+    height: 50%;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+.shadow {
+    cursor: pointer;
+}
+
+.shadow:hover {
+    background-color: #f5f5f5;
+    border: 2px solid #d0ff14;
+}
+
+.aboutText {
+    color: #f2f3f4;
+    font-family: 'Noto Serif Oriya', serif;
+}
+
+.intro {
+    color: #f5f5f5;
+}
+
+.basicinfo {
+    color: #f5f5f5;
+}
+
+/*
+.intro:hover {
+    color: #fcc200;
+}
+*/
+.basicinfo:hover {
+    font: bold;
+}
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+}
+
+.objec {
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+}
+
+.progress-title {
+    width: 100%;
+    height: auto;
+}
+
+.progress-title h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.progress-title h3:hover {
+    color: #ff7518;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 20px;
+    border: 0.5px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+
+.progress .progress-bar {
+    animation-duration: 2s, 1s;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1), linear;
+    animation-delay: 0s, 0s;
+    animation-iteration-count: 1, infinite;
+    animation-direction: normal, normal;
+    animation-fill-mode: none, none;
+    animation-play-state: running, running;
+    animation-name: animateBar, progress-bar-stripes;
+}
+
+.progress:hover .progress-bar {
+    animation-duration: 2s, 1s;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1), linear;
+    animation-delay: 0s, 0s;
+    animation-iteration-count: 1, infinite;
+    animation-direction: normal, normal;
+    animation-fill-mode: none, none;
+    animation-play-state: running, running;
+    animation-name: animateBar, progress-bar-stripes;
+}
+
+.progress .progress-bar {
+    border-radius: 20px;
+    border: 1px solid #000;
+    animation: animate-positive 2s;
+}
+
+.progress .progress-value {
+    width: 65px;
+    height: 25px;
+    line-height: 25px;
+    background: #171b3c;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+}
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+.progress-badge {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff6347;
+    margin-top: 2vh;
+}
+
+.progress-badge:hover {
+    color: #f5f5f5;
+}
+
+.Logo {
+    font-family: 'Kalam', cursive;
+    font-size: x-large;
+}
+
+.myskills {
+    height: 60vh;
+}
+
+* {
+    transition: .1s;
+}
+
+.h-100 {
+    height: 100vh !important;
+}
+
+.align-middle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.column {
+    margin-top: 3rem;
+    padding-left: 3rem;
+
+    &:hover {
+        padding-left: 0;
+
+        .card .txt {
+            margin-left: 1rem;
+
+            h1,
+            p {
+                color: rgba(255, 255, 255, 1);
+                opacity: 1;
+            }
+        }
+
+        a {
+            color: rgba(255, 255, 255, 1);
+
+            &:after {
+                width: 10%;
+            }
+        }
+    }
+}
+
+
+.card {
+    min-height: 170px;
+    margin: 0;
+    padding: 1.7rem 1.2rem;
+    color: #f2f3f4;
+    letter-spacing: .05rem;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0 0 21px rgba(0, 0, 0, .27);
+}
+
+.txt {
+    margin-left: -3rem;
+    z-index: 1;
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: .7rem;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 0rem;
+        margin-top: 33px;
+        opacity: 0;
+        color: transparent;
+    }
+}
+
+.form-control {
+    background-color: transparent;
+}
+
+.form-label {
+    color: #f5f5f5;
+}
+
+.form-control:hover {
+    background-color: #00a693;
+    color: #f5f5f5;
+    border-color: #32cd32;
+}
+
+.studtext {
+    opacity: 0;
+}
+
+.mycard {
+    overflow: hidden;
+}
+
+.mycard:hover .studtext {
+    opacity: 1;
+    transition: 1s;
+}
+
+.undone {
+    opacity: 0.5;
+}
+
+.undonepro:hover .undone {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.donepro:hover .pro {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 3.125rem;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.swiper-pagination {
+    bottom: 1.25rem !important;
+}
+
+.swiper-slide {
+    width: 18.75rem;
+    height: 18.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+}
+
+.swiper-slide h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 0.625rem;
+    padding: 0 0 0 1.563rem;
+    text-transform: uppercase;
+}
+
+.swiper-slide p {
+    color: #dadada;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding: 0 1.563rem;
+    line-height: 1.6;
+    font-size: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.swiper-slide a {
+    margin: 1.25rem 1.563rem 3.438rem 1.563rem;
+    padding: 0.438em 1.875rem;
+    font-size: 0.9rem;
+}
+
+.swiper-slide a:hover {
+    color: #005baa;
+}
+
+.swiper-slide div {
+    display: none;
+    opacity: 0;
+    padding-bottom: 0.625rem;
+}
+
+.swiper-slide-active div {
+    display: block;
+    opacity: 1;
+}
+
+.swiper-slide--one {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/CLOUDARCH.png") no-repeat 50% 50%/50% auto;
+
+}
+
+.swiper-slide--two {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/CLOUDFOUND.png") no-repeat 50% 50%/50% auto;
+}
+
+.swiper-slide--three {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/CYBEROPS.png") no-repeat 50% 50%/50% auto;
+}
+
+.swiper-slide--four {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/CYBERSECURITY.png") no-repeat 50% 50%/50% auto;
+}
+
+.swiper-slide--five {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/INTROCYBER.png") no-repeat 50% 50%/50% auto;
+}
+
+.swiper-slide--six {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/CCNA-1.png") no-repeat 50% 50%/50% auto;
+}
+
+.swiper-slide--seven {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("/Images/CCNA-2.png") no-repeat 50% 50%/50% auto;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
+@media screen and (min-width: 48rem) {
+    main {
+        display: flex;
+        align-items: center;
+    }
+
+    .bg,
+    .bg2 {
+        opacity: 0.1;
+    }
+}
+
+@media screen and (min-width: 93.75rem) {
+    .swiper {
+        width: 85%;
+    }
+}
+
+.btn1 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    background: #005baa;
+    margin-left: 250px;
+    font-weight: bolder;
+    color: #38EF7D;
+}
+
+.btn1:hover {
+    background-image: linear-gradient(to bottom right, #11998E 0%, #38EF7D 85%);
+    background-size: cover;
+    position: relative;
+    transition: 0.1s;
+    color: #005baa;
+}
